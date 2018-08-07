@@ -1,0 +1,4 @@
+weather_client
+*.h
+*.o
+*.txt
