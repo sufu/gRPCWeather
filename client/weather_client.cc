@@ -100,7 +100,7 @@ int main(int argc, char** argv) {
       return 0;
     }
 
-    std::string reply = client.GetWeatherByCity(value);
+    std::string reply;
     if (type == "city") {
       reply = client.GetWeatherByCity(value);
     } else if (type == "zip") {

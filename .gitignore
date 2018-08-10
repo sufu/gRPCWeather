@@ -4,3 +4,4 @@ weather_client
 *.txt
 __pycache__
 .vscode
+weather_pb2*.py
